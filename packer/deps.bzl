@@ -29,7 +29,7 @@ def deps():
 
     http_archive(
         name = "packer_linux",
-        url = "https://releases.hashicorp.com/packer/1.4.0/packer_1.4.0_linux_amd64.zip",
-        sha256 = "7505e11ce05103f6c170c6d491efe3faea1fb49544db0278377160ffb72721e4",
+        url = "https://releases.hashicorp.com/packer/1.7.0/packer_1.7.0_linux_amd64.zip",
+        sha256 = "935e81c07381a964bdbaddde2d890c91d52e88b9e5375f3882840925f6a96893",
         build_file_content = 'exports_files(["packer"])'
     )
